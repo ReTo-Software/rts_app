@@ -24,25 +24,25 @@ function rt_id_decode( $id ){
 	return base64_decode( substr( $id , 2 , 4 ) );
 }
 
-
+#Database Information
 include_once('protegido/mysql.php');
 
-# $idTxt = ''; #VARIABLES QUE ALMACENARAN LOS ID'S DEL CONTENIDO
+#New Mysql
 $bd = new MYSQL;
 
-#CONECTAR A LA BD
+#Connection to Database
 $bd->conectar();
 
-# QUERY
+#Query
 $q = 'UPDATE contenido SET description =\''. $_POST["textToEdit"] .'\' WHERE id=' . $_POST['edit'];
 
-# EJECUTA EL QUERY
+#Exec Query
 $bd->query($q);
 
-#DESCONECTAR DE LA BD
+#Disconnect from DB
 $bd->desconectar();
 
-
+#Set Default Modifiable Content
 header('Location: ./admin.php?v=null');
 
 ?>
