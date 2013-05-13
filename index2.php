@@ -9,6 +9,7 @@
 	<!--META-->
 		<meta charset="UTF-8">
 	<!--END META-->
+	<!--##################################################-->
 
 	<title>TITULO DEL SITE</title>
 
@@ -99,6 +100,8 @@
 	<!--##################################################-->
 </head>
 
+<!--##################################################-->
+<!--CODE-->
 <body style="position: relative; z-index: 1;">
 <div id="content" class="background1"> 
 	<div id="menuContainer"> 
@@ -179,13 +182,16 @@
 
 	</div>
 
-		</div>
+	</div>
 
-		<div id="footer">
-			<div class="wrapper">
-				<label>TODOS LOS DERECHOS RESERVADOS</label>
-				<a href="http://www.guepgroup.com/" target="_blank"><img src="img/logos/guepGroup.png" ></a>
-			</div>
+	<div id="footer">
+		<div class="wrapper">
+			<label>TODOS LOS DERECHOS RESERVADOS</label>
+			<a href="http://www.guepgroup.com/" target="_blank"><img src="img/logos/guepGroup.png" ></a>
 		</div>
-	</body>
+	</div>
+</body>
+<!--END CODE-->
+<!--##################################################-->
+
 </html>
