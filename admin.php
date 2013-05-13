@@ -30,8 +30,11 @@ function rt_id_decode( $id ){
 	<meta charset="UTF-8">
 	<title>TÍTULO PÁGINA</title>
 	
-	<!--FAVICON DE LA PÁGINA-->
-	<!--link rel="shortcut icon" href="images/favicon.ico"-->
+	<!--##################################################-->
+	<!--FAVICON-->
+		<!--link rel="shortcut icon" href="images/favicon.ico"-->
+	<!--END FAVICON-->
+	<!--##################################################-->
 
 	<!--##################################################-->
 	<!--STYLESHEETS-->
@@ -76,14 +79,14 @@ function rt_id_decode( $id ){
 		<!--End JQuery-->
 
 		<!--Plugins-->
-			<!--Plugin Name-->
+			<!--NivoSlider-->
 				<!-- <script type="text/javascript" src="js/nivo-slider/jquery.nivo.slider.js"></script> -->
-			<!--End Plugin Name-->
+			<!--End NivoSlider-->
 			<!--CkEditor-->
 				<script type="text/javascript" src="js/ckeditor/ckeditor.js"></script>
 				<script type="text/javascript" src="js/ckeditor/styles.js"></script>
 				<script type="text/javascript" src="js/ckeditor/lang/else.js"></script>
-			<!--End CkEditor>
+			<!--End CkEditor-->
 		<!--End Plugins-->
 
 		<!--Local-->
