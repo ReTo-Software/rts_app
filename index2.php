@@ -1,10 +1,5 @@
 <!--Encode and compress Website-->
-<?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); 
-
-# ESTO ES UNA PRUEBA PARA EL GIT
-#segunda modificacion
-
-?>
+<?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); ?>
 <!doctype html>
 
 <html lang="en">
@@ -15,7 +10,7 @@
 		<meta charset="UTF-8">
 	<!--END META-->
 	<!--##################################################-->
-	TE QUIERO FRAN..!!!
+
 	<title>TITULO DEL SITE</title>
 
 	<!--##################################################-->
